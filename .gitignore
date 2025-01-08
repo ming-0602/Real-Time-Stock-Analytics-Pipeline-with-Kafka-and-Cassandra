@@ -1,0 +1,62 @@
+# ----------------------
+# Global / System Ignores
+# ----------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+*.swc
+*.tmp
+
+# ----------------------
+# Environment Files
+# ----------------------
+.env
+*.env
+
+# ----------------------
+# Front-End (React)
+# ----------------------
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+# Optional: if you have coverage or temp folders
+frontend/coverage/
+frontend/.env
+
+# If using Yarn
+frontend/yarn-error.log
+frontend/yarn.lock
+
+# If using npm
+frontend/package-lock.json
+
+# ----------------------
+# KafkaBackend (Flask / Python)
+# ----------------------
+KafkaBackend/__pycache__/
+KafkaBackend/*.pyc
+KafkaBackend/*.pyo
+KafkaBackend/*.pyd
+KafkaBackend/env/
+KafkaBackend/venv/
+KafkaBackend/.env
+KafkaBackend/.pytest_cache/
+KafkaBackend/*.egg-info/
+KafkaBackend/.mypy_cache/
+KafkaBackend/.coverage
+KafkaBackend/htmlcov/
+
+# If you're storing logs in your backend
+KafkaBackend/logs/
+
+# If using Pipenv
+KafkaBackend/Pipfile.lock
+
+# ----------------------
+# Editor / IDE specific
+# ----------------------
+.vscode/
+.idea/
+*.iml
