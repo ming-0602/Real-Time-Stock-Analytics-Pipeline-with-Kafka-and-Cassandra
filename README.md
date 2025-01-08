@@ -1,7 +1,13 @@
 # Real-Time Stock Analytics Pipeline
-This project demonstrates a near real-time data pipeline that fetches stock data from an external API (Alpha Vantage), ingests it via Apache Kafka, stores it in Cassandra, and displays the results in a React candlestick chart.
+This project demonstrates a near real-time data pipeline that fetches stock data from an external API (Alpha Vantage), ingests it via Apache Kafka, stores it in Cassandra, and displays the results in a React candlestick chart.<br /><br />
+![Untitled](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Untitled](https://img.shields.io/badge/Cassandra-1287B1?style=for-the-badge&logo=apache%20cassandra&logoColor=white)
+![Untitled](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![Untitled](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Untitled](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
 ![Untitled](https://github.com/user-attachments/assets/e94f67ec-712d-449b-bf6d-bdfd836096b0)
+
 
 ### Table of Contents <br />
 - Overview<br />
